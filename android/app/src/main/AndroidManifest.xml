@@ -40,7 +40,7 @@
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <meta-data
-            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
-            android:value="ocr,label,barcode,face" />
+          android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+          android:value="barcode,face,label,ocr" />
     </application>
 </manifest>

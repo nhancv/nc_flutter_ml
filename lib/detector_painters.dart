@@ -162,4 +162,14 @@ class TextDetectorPainter extends CustomPainter {
     return oldDelegate.absoluteImageSize != absoluteImageSize ||
         oldDelegate.visionText != visionText;
   }
+
+  void drawText(Canvas canvas, Color color, Offset offset, String text) {
+    TextPainter tp = new TextPainter(
+        text:
+        new TextSpan(style: new TextStyle(color: color), text: text),
+        textAlign: TextAlign.center,
+        textDirection: TextDirection.ltr);
+    tp.layout();
+    tp.paint(canvas, offset);
+  }
 }

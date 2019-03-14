@@ -1,7 +1,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:nc_flutter_ml/home_screen.dart';
-import 'package:nc_flutter_ml/ml_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -17,8 +16,7 @@ class MyApp extends StatelessWidget {
         primaryColorDark: const Color(0xFF167F67),
         accentColor: const Color(0xFF167F67),
       ),
-//      home: HomeScreen(title: 'Flutter Image picker'),
-      home: MLScreen(),
+      home: HomeScreen(title: 'Flutter ML'),
     );
   }
 }
