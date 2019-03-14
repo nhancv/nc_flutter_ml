@@ -59,10 +59,11 @@ target 'Runner' do
     pod p[:name], :path => File.join(symlink, 'ios')
   }
   
-  pod 'Firebase/MLVisionBarcodeModel'
-  pod 'Firebase/MLVisionFaceModel'
-  pod 'Firebase/MLVisionLabelModel'
-  pod 'Firebase/MLVisionTextModel'
+  # pod 'Firebase/Core'
+  # pod 'Firebase/MLVisionBarcodeModel'
+  # pod 'Firebase/MLVisionFaceModel'
+  # pod 'Firebase/MLVisionLabelModel'
+  # pod 'Firebase/MLVisionTextModel'
 
 end
 
